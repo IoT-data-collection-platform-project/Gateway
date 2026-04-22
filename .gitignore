@@ -1,0 +1,20 @@
+# CMake 빌드
+/build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# 바이너리 및 실행 파일
+gateway_app
+*.o
+*.out
+*.so
+*.a
+
+.vscode/
+*.swp
+*~
+
+.DS_Store
+Thumbs.db

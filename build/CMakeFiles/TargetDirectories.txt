@@ -1,3 +1,0 @@
-/home/seojunyong/IoT_Gateway/build/CMakeFiles/gateway_app.dir
-/home/seojunyong/IoT_Gateway/build/CMakeFiles/edit_cache.dir
-/home/seojunyong/IoT_Gateway/build/CMakeFiles/rebuild_cache.dir
