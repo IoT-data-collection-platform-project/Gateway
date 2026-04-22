@@ -1,2 +1,1 @@
-# Gateway
-Gateway on RaspberryPi
+./gateway_app [IP] [Port]
