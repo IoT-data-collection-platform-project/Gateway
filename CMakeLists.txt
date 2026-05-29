@@ -6,10 +6,16 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 헤더 파일
-include_directories(include)
+include_directories(
+    include
+    include/network
+    include/sensor
+    include/thread
+    include/LED
+)
 
 # src .cpp 파일을 소스로 지정
-file(GLOB SOURCES "src/*.cpp")
+file(GLOB_RECURSE SOURCES "src/*.cpp")
 
 # 실행 파일 생성
 add_executable(gateway_app ${SOURCES})
@@ -19,4 +25,5 @@ target_link_libraries(gateway_app
     paho-mqttpp3
     paho-mqtt3as
     pthread
+    gpiod
 )
